@@ -1,0 +1,21 @@
+{
+  "stock_cases": 16,
+  "reserve_cases": 3,
+  "sites": [
+    {
+      "name": "West",
+      "requested_cases": 7,
+      "capacity_cases": 6
+    },
+    {
+      "name": "North",
+      "requested_cases": 2,
+      "capacity_cases": 5
+    },
+    {
+      "name": "East",
+      "requested_cases": 9,
+      "capacity_cases": 8
+    }
+  ]
+}

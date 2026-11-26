@@ -1,0 +1,34 @@
+{
+  "command": [
+    "{python}",
+    "app.py"
+  ],
+  "expected": {
+    "reserved_cases": 3,
+    "distributed_cases": 13,
+    "unassigned_cases_after_reserve": 0,
+    "allocation": [
+      {
+        "site": "East",
+        "requested_cases": 9,
+        "capacity_cases": 8,
+        "allocated_cases": 6,
+        "unfilled_cases": 3
+      },
+      {
+        "site": "North",
+        "requested_cases": 2,
+        "capacity_cases": 5,
+        "allocated_cases": 2,
+        "unfilled_cases": 0
+      },
+      {
+        "site": "West",
+        "requested_cases": 7,
+        "capacity_cases": 6,
+        "allocated_cases": 5,
+        "unfilled_cases": 2
+      }
+    ]
+  }
+}
